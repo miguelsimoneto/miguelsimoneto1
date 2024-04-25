@@ -1,0 +1,27 @@
+{
+  "name": "novo",
+  "version": "1.0.0",
+  "description": "nodejs node javascript outros",
+  "main": "hello.js",
+  "scripts": {
+    "test": "miguel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelsimoneto/miguelsimoneto1.git"
+  },
+  "keywords": [
+    "meuspacotes",
+    "migsimon"
+  ],
+  "author": "miguel angelo simoneto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelsimoneto/miguelsimoneto1/issues"
+  },
+  "homepage": "https://github.com/miguelsimoneto/miguelsimoneto1#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "readline-sync": "^1.4.10"
+  }
+}
