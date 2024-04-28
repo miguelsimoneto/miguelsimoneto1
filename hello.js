@@ -1,3 +1,4 @@
+const { clear } = require('console');
 const readline = require('readline');
 const rl = readline.createInterface({
   input: process.stdin,
@@ -12,6 +13,7 @@ const rl = readline.createInterface({
         let terceiraVariavel = valor3;
         console.log(`Valores armazenados: ${primeiraVariavel}, ${segundaVariavel}, ${terceiraVariavel}`);
         rl.close();
+        console.log("A soma dos valores e", parseInt(primeiraVariavel) + parseInt(segundaVariavel) + parseInt(terceiraVariavel))
       });
     });
   });
